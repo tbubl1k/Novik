@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1445px)" />
+    <link rel="stylesheet" media="screen and (min-width: 375px)" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="">Home</a></li>
+            <li class="nav__item"><a href="">About me</a></li>
+            <li class="nav__item"><a href="">Skills</a></li>
+            <li class="nav__item"><a href="">Portfolio</a></li>
+            <li class="nav__item"><a href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <hr class="nav__line" />
+        <div class="burger">
+          <input type="checkbox" class="burger__check" />
+
+          <svg
+            class="burger__icon burger__icon_close"
+            xmlns="http://www.w3.org/2000/svg"
+            width="33"
+            height="20"
+            viewBox="0 0 33 20"
+            fill="none"
+          >
+            <rect width="33" height="3.83721" fill="black" />
+            <rect y="7.67383" width="33" height="3.83721" fill="black" />
+            <rect y="15.3496" width="33" height="3.83721" fill="black" />
+          </svg>
+
+          <svg
+            class="burger__icon burger__icon_close"
+            xmlns="http://www.w3.org/2000/svg"
+            width="23"
+            height="23"
+            viewBox="0 0 23 23"
+            fill="none"
+          >
+            <rect
+              x="2.68701"
+              width="27.3715"
+              height="3.8"
+              transform="rotate(45 2.68701 0)"
+              fill="#828282"
+            />
+            <rect
+              x="0.831299"
+              y="19.5566"
+              width="27.3715"
+              height="3.8"
+              transform="rotate(-45 0.831299 19.5566)"
+              fill="#828282"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="home">
+        <div class="container">
+          <div class="text__content">
+            <h1 class="home__title">Denis Novik</h1>
+            <p class="home__discr">
+              UX | UI designer <br />
+              24 years old, Minsk
+            </p>
+          </div>
+          <div class="home__img__block">
+            <picture>
+              <source
+                media="(max-width:550px)"
+                srcset="./assets/images/main.webp"
+              />
+              <img
+                class="home__img"
+                src="./assets/images/novikhorisontal.webp"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <h2 class="about__title">About me</h2>
+          <div class="about__discr">
+            <p>
+              Hi, I'm Denis – UX/UI designer from Minsk. <br />I'm interested in
+              design and everything connected with it.
+            </p>
+            <p>
+              I'm studying at courses "Web and mobile <br />design interfaces"
+              in IT-Academy.
+            </p>
+            <p>
+              Ready to implement excellent projects <br />with wonderful people.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="skills">
+        <div class="container">
+          <h2 class="skills__title">Skills</h2>
+          <div class="skills__discr">
+            <p>I work in such programs as</p>
+          </div>
+          <div class="skills__cards__block">
+            <div class="skills__card">
+              <img
+                class="skills__card__pic__std"
+                src="./assets/images/icons/PS.svg"
+              />
+              <p class="skills__card">Adobe <br />Photoshop</p>
+              <div class="skills__card__rate">
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star alt.svg"
+                />
+              </div>
+            </div>
+            <div class="skills__card">
+              <img
+                class="skills__card__pic__std"
+                src="./assets/images/icons/AI.svg"
+              />
+              <p class="skills__card">Adobe <br />Illustrator</p>
+              <div class="skills__card__rate">
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star alt.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star alt.svg"
+                />
+              </div>
+            </div>
+            <div class="skills__card">
+              <img
+                class="skills__card__pic__std"
+                src="./assets/images/icons/AE.svg"
+              />
+              <p class="skills__card">Adobe <br />After Effects</p>
+              <div class="skills__card__rate">
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star alt.svg"
+                />
+              </div>
+            </div>
+            <div class="skills__card">
+              <img
+                class="skills__card__pic__toll"
+                src="./assets/images/icons/Figma.svg"
+              />
+              <p class="skills__card">Figma</p>
+              <div class="skills__card__rate">
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star.svg"
+                />
+                <img
+                  class="skills__card__rate__star"
+                  src="./assets/images/icons/Star alt.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="container">
+          <h2 class="portfolio__title">Portfolio</h2>
+          <div class="portfolio__image__block">
+            <img
+              class="portfolio__image__type1"
+              src="./assets/images/portfolio_pic_woman.png"
+            />
+          </div>
+          <p class="portfolio__link__type1">Online fashion store - Homepage</p>
+          <div class="portfolio__image__block">
+            <img
+              class="portfolio__image__type2"
+              src="./assets/images/reebok_web.png"
+            />
+          </div>
+          <p class="portfolio__link__type1">Reebok Store - Concept</p>
+          <div class="portfolio__image__block">
+            <img
+              class="portfolio__image__type2"
+              src="./assets/images/braun_web.png"
+            />
+          </div>
+          <p class="portfolio__link__type2">Braun Landing Page - Concept</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__title">Contacts</h2>
+      <p class="footer__discr">
+        Want to know more or just chat? <br />
+        You are welcome!
+      </p>
+      <div class="footer__btn">
+        <p>Send message</p>
+      </div>
+      <div class="footer__icons__block">
+        <img class="footer__icon" src="./assets/images/icons/linkedin.svg" />
+        <img class="footer__icon" src="./assets/images/icons/ig.svg" />
+        <img class="footer__icon" src="./assets/images/icons/behance.svg" />
+        <img class="footer__icon" src="./assets/images/icons/dribble.svg" />
+      </div>
+      <div class="footer__links__block">
+        <p>
+          Like me on <br />
+          <a href="https://www.linkedin.com/">LinkedIn</a>,
+          <a href="https://www.instagram.com/">Instagram</a>,
+          <a href="https://www.behance.net/">Behance</a>,
+          <a href="https://dribbble.com/">Dribble</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
